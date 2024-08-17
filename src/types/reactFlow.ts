@@ -4,7 +4,7 @@ export type NodeType = {
     id: string,
     type?: string,
     data: {
-        label: string
+        label?: string
     },
     position: {
         x: number,
