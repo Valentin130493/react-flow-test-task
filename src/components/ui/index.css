@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 25px;
+}
+
+.list_item {
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding: 1rem;
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.list_item:hover {
+    cursor: pointer;
+}
+
+.loading {
+    color: blue;
+}
+.loading:hover{
+    text-decoration: underline;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: transparent;
+}
